@@ -1,0 +1,87 @@
+#sign{
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 400px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid #cdcdcd;
+    padding: 30px;
+}
+
+#sign h1{
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #79b260;
+}
+
+#sign label, #sign input{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+ 
+}
+
+
+#sign .input{
+    position: relative;
+    display: flex;
+    background: transparent;
+}
+
+#sign label{
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    padding: 0 5px;
+    background: white;
+    font-size: 15px;
+    color: #79b260;
+}
+
+#sign input[type="text"],  #sign input[type="password"]{
+    width: 100%;
+    flex-basis: 100%;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid #79b260;
+    border-radius: 20px;
+
+}
+
+#sign .input {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#sign .input input:hover label{
+    top: -10px;
+    background-color: black;
+}
+
+
+#sign button{
+    margin-left: auto;
+    background: #79b260;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 5px 0px #dcdcdc;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#sign .error{
+    height: 10px;
+    flex-basis: 100%;
+    font-family:  'Titillium Web', sans-serif;  
+    color: red;
+    font-size: 14px;
+  
+}
+

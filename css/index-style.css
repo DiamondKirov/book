@@ -1,0 +1,141 @@
+
+
+main{
+    margin-top: 10px;
+   
+}
+
+main .container{
+    display: flex;
+}
+
+.zzz{
+
+    clear: both;
+    padding-top: 1000px;
+}
+
+.categories-wrapper{
+    width: 190px;
+    float: left;
+    border: 1px solid #d6d6d6;
+    height: 100%;
+}
+
+.categories-wrapper h1{
+    padding-left: 15px;
+    font-family: 'Arial';
+    color: #6d6d6d;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.categories-wrapper h2{
+    margin: 15px 0 20px 0;
+    padding-left: 15px;
+    font-family: 'Arial';
+    color: #6d6d6d;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.categories{
+    width: 100%;
+}
+
+.categories a, .all{
+    width: 165px;
+    padding: 0;
+    padding-left: 15px;
+}
+
+
+.categories-wrapper a:hover{
+    background: linear-gradient(to top, #79b260, #92d774);
+    color: white;
+}
+
+.categories-sort{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.categories-sort a{
+    padding: 5px 0 5px 25px;
+    font-family: 'Arial';
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.books-wrapper{
+    float: left;
+    padding: 0 25px;
+    margin-left: 10px;
+    width: 770px;
+    border: 1px solid #d6d6d6;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.book-item{
+    width: 130px;
+    height: 255px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-item h2{
+    margin: 0;
+    font-family: 'arial';
+    font-size: 15px;
+    color: #595959;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.book-item p{
+    margin: 0;
+    margin-top: 5px;
+    font-family: 'arial';
+    font-size: 22px;
+    color: #f05356;
+}
+
+.list{
+    
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 20px;
+    border-bottom: 5px solid transparent;
+}
+
+.active{
+    border: 1px solid #6d6d6d;
+    border-bottom-color: #79b260 !important;
+    border-bottom-width: 5px;
+}

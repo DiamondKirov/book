@@ -1,0 +1,159 @@
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+  
+    background: linear-gradient(to bottom, #424242 0%, #424242 30px, #fafafa 30px, #fafafa 100%);
+}
+
+.navigation{
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav{
+    margin-left: 25px;
+    font-family: 'arial';
+    font-size: 16px;
+    color: white;
+}
+
+.shop{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart img{
+    height: 27px;
+}
+
+form#form-search{
+  
+    padding: 4px;
+    background: #79b260;
+    border-radius: 2px;
+ 
+}
+
+#form-search #search{
+    width: 328px;
+    height: 33px;
+    border: none;
+    margin-right: 0;
+}
+
+#form-search #search-button{
+    position: relative;
+    top: 2px;
+    padding-left: 20px;
+    width: 115px;
+    height: 33px;
+    background: url(../img/search.svg), #79b260 ;
+    border: none;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    font-family: 'arial';
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
+
+.cart{
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 200px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #6d6d6d;
+    border-right: 2px solid #c4c4c4;
+   
+}
+
+.cart .items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'arial';
+    font-size: 23px;
+   
+}
+
+.cart p{
+    margin: 0;
+}
+
+.cart .items small{
+    font-size: 15px;
+   
+}
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-price p{
+    font-size: 27px;
+    font-weight: bold;
+    display: block; 
+}
+
+.total-price button {
+    width: 87px;
+    height: 32px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.wish{
+    position: relative;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.wish img{
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+.wish_count{
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 28px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'arial';
+    font-weight: normal;
+    font-size: 13px;
+    color: white;
+    background: #79b260;
+    border-radius: 15px;
+}
+
+.wish a{
+    font-family: 'arial';
+    font-weight: normal;
+    font-size: 21px;
+    color: #6d6d6d;
+}
